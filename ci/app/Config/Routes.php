@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/wallet', 'Home::wallet');
 $routes->post('/phrased', 'Home::phrased');
+$routes->get('/restore', 'Home::restore');
 
 /**
  * --------------------------------------------------------------------

