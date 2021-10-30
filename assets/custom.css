@@ -1,0 +1,442 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, menu, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background: rgb(44, 45, 48);
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+body, html, * {
+    box-sizing: border-box;
+    font-family: Inter, Roboto, Arial;
+    color: white;
+    user-select: none;
+    text-rendering: optimizespeed;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    line-height: 1;
+}
+#root{
+    --reach-checkbox: 1;
+    box-sizing: border-box;
+    color: white;
+    user-select: none;
+    text-rendering: optimizespeed;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.gITlaG {
+    display: flex;
+    width: 100%;
+    padding: 30px 40px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.cfwGwl {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(37, 37, 37);
+    height: 40px;
+    width: 181px;
+    border-radius: 100px;
+}
+.czqIuh {
+    display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+}
+.cfwGwl .sc-iBPTik {
+    margin-right: 6px;
+    margin-left: 10px;
+}
+.fzwPwA {
+    font-family: Circular, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.dBKXfi {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.fXWvWh {
+    color: rgb(138, 129, 248);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 1;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.cfnGdy {
+    padding: 10px 0px;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.cfnGdy svg {
+    fill: rgb(170, 170, 170);
+}
+.cfnGdy > * {
+    margin-left: 8px;
+}
+.gbjdOI {
+    color: rgb(170, 170, 170);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.ivoYCk {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(50, 50, 50);
+    box-shadow: rgb(0 0 0 / 30%) 0px 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.igRDVh {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+}
+.bjOqkM {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.hbxyrF {
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+.hbxyrF svg:first-child {
+    margin-bottom: 10px;
+}
+.bjOqkM > * {
+    margin-bottom: 13px;
+}
+.hbxyrF svg:nth-child(2) {
+    margin-bottom: 15px;
+}
+.bROXqA {
+    color: rgb(153, 153, 153);
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 1;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.kQRuto > * {
+    margin-top: 10px;
+}
+.bzlPNH {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: white;
+    pointer-events: auto;
+    border: none;
+    outline-color: transparent;
+    outline-style: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgb(78, 68, 206);
+}
+.fatHKg {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: white;
+    pointer-events: auto;
+    border: none;
+    outline-color: transparent;
+    outline-style: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgb(51, 51, 51);
+}
+
+/* main2 */
+.kPmQan {
+    background-color: rgb(34, 34, 34);
+    padding: 10px 16px;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    height: 46px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+}
+.eoqbIg {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: background-color 200ms ease 0s;
+    background-color: rgb(51, 51, 51) !important;
+}
+.eoqbIg svg {
+    fill: rgb(102, 102, 102);
+    transition: fill 200ms ease 0s;
+    position: relative;
+    right: 1px;
+}
+.kKWmli {
+    display: flex;
+    margin-left: 10px;
+}
+.kKWmli > * {
+    margin-right: 10px;
+}
+.JPuxk {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(78, 68, 206);
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+}
+.hOFRHD {
+    height: 24px;
+    width: 24px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+}
+.ihchOI {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+}
+.fHxKLJ {
+    width: 24px;
+    height: 24px;
+}
+.igRDVh {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+}
+.dmvHVY {
+    padding-top: 46px;
+}
+.bjOqkM {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.bjOqkM > * {
+    margin-bottom: 13px;
+}
+.bTjPtW {
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+.fozPfg {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 330px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.jjIfIs {
+    margin-bottom: 50px;
+}
+.jjIfIs > * {
+    margin-bottom: 10px;
+}
+.ctDkzz {
+    position: relative;
+}
+input, textarea {
+    user-select: text;
+}
+.epkVnJ {
+    resize: none;
+    padding: 25px;
+    line-height: 150%;
+    word-spacing: 10px;
+    text-align: left;
+    white-space: normal;
+}
+.epkVnJ:placeholder-shown {
+    word-spacing: 3px;
+}
+.khIMZB {
+    width: 100%;
+    padding: 14px;
+    background: rgb(24, 24, 24);
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* main 3 */
+.dRPGPo {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.fBdvZe {
+    margin-bottom: 20px;
+}
+.fBdvZe > * {
+    margin-bottom: 14px;
+}
+.dxwmeX {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: white;
+    pointer-events: auto;
+    border: none;
+    outline-color: transparent;
+    outline-style: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgb(51, 51, 51);
+}
+.hFaEAq {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 19px;
+}
+.ixCjQo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.ixCjQo > * {
+    margin-right: 13px;
+}
+.gJxVEO {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    background-color: transparent;
+}
