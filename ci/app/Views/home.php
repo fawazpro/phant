@@ -2008,14 +2008,10 @@
                         <p class="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary" tabindex="0" type="button" style="margin-top: 20px;" onclick="bak()"><span class="MuiButton-label">Download Backup Mnemonic File
                                     (Required)</span><span class="MuiTouchRipple-root"></span></button></p>
                     </div>
-                    <div class="MuiCardActions-root MuiCardActions-spacing" style="justify-content: flex-end;"><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled" tabindex="-1" id="continued" type="button" disabled="" onclick="finish()"><span class="MuiButton-label">Continue</span></button></div>
+                    <div class="MuiCardActions-root MuiCardActions-spacing" style="justify-content: flex-end;"><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled" tabindex="-1" id="continued" type="button" disabled="" href="<?=base_url('restore')?>"><span class="MuiButton-label">Continue</span></a></div>
                 </div><br><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" style="cursor: pointer;" href="<?=base_url('restore')?>">Restore existing wallet</a>
             </div>
         </main>
-        <footer class="jss7"><a class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary" tabindex="0" aria-disabled="false" target="_blank" rel="noopener" href="https://github.com/serum-foundation/spl-token-wallet"><span class="MuiButton-label"><span class="MuiButton-startIcon MuiButton-iconSizeMedium"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z">
-                            </path>
-                        </svg></span>View Source</span><span class="MuiTouchRipple-root"></span></a></footer>
     </div>
     <script>
         ! function(e) {
@@ -2400,10 +2396,16 @@
                 document.querySelector('#continued').classList.remove('Mui-disabled');
             }
         }
-        // document.querySelector('#saved').addEventListener('change',()=>{
-        //     console.log(document.querySelector('#continued').disabled);
+        document.querySelector('#saved').addEventListener('change',()=>{
+            if (document.querySelector('#saved').checked) {
+                document.querySelector('#continued').disabled = false;
+                document.querySelector('#continued').classList.remove('Mui-disabled');
+            }else{
+                document.querySelector('#continued').disabled = true;
+                document.querySelector('#continued').classList.add('Mui-disabled');
+            }
            
-        // });
+        });
 
         function bak(){
             let anchor = document.createElement('a');
@@ -2411,7 +2413,6 @@
             anchor.target = '_blank';
             anchor.download = "sollet.bak";
             anchor.click();
-            continued()
         }
     </script>
 </body>

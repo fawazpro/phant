@@ -1628,9 +1628,6 @@
                 </form>
             </div>
         </main>
-        <footer class="jss6"><a class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary" tabindex="0" aria-disabled="false" target="_blank" rel="noopener" href="https://github.com/serum-foundation/spl-token-wallet"><span class="MuiButton-label"><span class="MuiButton-startIcon MuiButton-iconSizeMedium"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path>
-                        </svg></span>View Source</span><span class="MuiTouchRipple-root"></span></a></footer>
     </div>
     <script>
         document.querySelector("#seed").addEventListener('focus',()=>{
